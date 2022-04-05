@@ -148,3 +148,38 @@ h3 {
     width: 300px;
     height: 215px;
 }
+
+.btnshop {
+    max-width: 100%;
+    color: #0067b8;
+    padding-top: 15px;
+    font-weight: 700;
+}
+
+.btnshop:hover {
+    border-bottom: 3px solid #0067b8;
+}
+
+.btnjoinnow {
+    max-width: 100%;
+    color: #0067b8;
+    padding-top: 15px;
+    font-weight: 700;
+    margin: 0 4px 0 0;
+    padding: 10px 16px 7px 0;
+}
+
+.btncompare {
+    max-width: 100%;
+    color: #0067b8;
+    padding-top: 15px;
+    font-weight: 700;
+}
+
+.btnjoinnow:hover {
+    border-bottom: 3px solid #0067b8;
+}
+
+.btncompare:hover {
+    border-bottom: 3px solid #0067b8;
+}
