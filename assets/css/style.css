@@ -17,6 +17,10 @@ header li {
     flex-wrap: wrap;
 }
 
+header a {
+    text-decoration: none;
+}
+
 header li a:hover {
     color: #4169e1;
 }
@@ -24,6 +28,7 @@ header li a:hover {
 .left_links {
     display: flex;
     padding-top: 15px;
+    list-style: none;
 }
 
 .container {
@@ -34,9 +39,14 @@ header li a:hover {
     flex-wrap: wrap;
 }
 
+.designer {
+    float: left;
+}
+
 .right_links {
     display: flex;
     padding-top: 15px;
+    list-style: none;
 }
 
 .icon {
@@ -60,22 +70,23 @@ h1 {
     max-height: 80px;
 }
 
+.btn a {
+    text-decoration: none;
+}
+
 .btn {
     max-width: 12rem;
     padding: 15px;
-    background-color: #000000;
-    text-align: center;
-    font-size: 1.5rem;
     color: #fff;
+    background-color: #59cdf3fb;
+    font-size: 1.5rem;
     margin-top: 3rem;
     box-sizing: content-box;
 }
 
 .btn :hover {
-    border-bottom: 5px solid #047832;
+    border-bottom: 5px solid #ff1900;
     transition: .3s ease-in-out;
-    border-bottom: 3px solid #fff;
-    color: #ffd700;
     font-weight: 400;
 }
 
@@ -106,10 +117,12 @@ h1 {
 }
 
 .accessories_container a {
-    padding: 2rem;
-    /*position: relative;
-    right: 5px;
-    */
+    padding: 2rem 2rem 0;
+    text-decoration: none;
+}
+
+.accessories_container a:hover {
+    border-bottom: 3px solid #4169e1;
 }
 
 .windowicon {
