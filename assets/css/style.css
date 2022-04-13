@@ -270,6 +270,8 @@
         font-size: 2.5rem;
     }
     /**end of section 6**/
+    
+    /**start of section 7**/
     .pargph{
         color: #58585a;
     }
@@ -288,3 +290,4 @@
         display: flex;
         gap: 1rem;
     }
+    /** end of section 7**/
