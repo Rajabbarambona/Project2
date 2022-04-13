@@ -200,7 +200,7 @@
     }
     /**Beginning of section 4**/
     
-    .twins_container {
+    .twins_container{
         max-width: 77rem;
         max-height: 33rem;
         display: flex;
@@ -227,3 +227,39 @@
         color: #fff;
     }
     /**End of section 4**/
+    .section__container{
+        padding-top: 1rem;
+        
+           
+    }
+    .inner__section{
+        padding: 5rem 0;
+        background-color: #bbb8b8;
+    }
+    .images{
+        
+        display: flex;
+    }
+    .photos{
+        float: right;
+        display: flex;
+        width: 15%;
+    }
+
+    .container{
+        width: 95%;
+        max-width: 1260px;
+        margin: 0 auto;
+    }
+    .section__btn, .link {
+        padding: 1rem;
+        color: #fff;
+        border: #000;
+        background-color: #000;
+    }
+    .link{
+        text-decoration: none;
+    }
+    .link{
+        text-align: center;
+    }
