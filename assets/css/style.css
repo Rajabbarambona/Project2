@@ -227,39 +227,64 @@
         color: #fff;
     }
     /**End of section 4**/
-    .section__container{
-        padding-top: 1rem;
-        
-           
-    }
-    .inner__section{
-        padding: 5rem 0;
-        background-color: #bbb8b8;
-    }
-    .images{
-        
-        display: flex;
-    }
-    .photos{
-        float: right;
-        display: flex;
-        width: 15%;
-    }
 
+    /**start of section 6**/
     .container{
         width: 95%;
-        max-width: 1260px;
+        max-width: 94%;
         margin: 0 auto;
     }
-    .section__btn, .link {
-        padding: 1rem;
-        color: #fff;
+    .section__container{
+        padding-top: 1rem;     
+    }
+    .inner__section{
+        padding: 1rem 0;
+        background-color: #bbb8b8;
+    }
+    .photos{
+        margin: 0 auto;
+        padding-right:1rem;
+        float: right;
+        width: 100%;
+        max-width: 20%;
+    }
+    .page{
+      text-align: center;
+      padding-top: 9rem;  
+    }
+    .section__btn{
+        padding: 0.75rem 2rem;
         border: #000;
         background-color: #000;
     }
+    .fa-solid,
     .link{
         text-decoration: none;
+        color: #fff;
     }
-    .link{
-        text-align: center;
+    .link:hover{
+        background-color: #4b4b4d;
+        text-decoration: underline;
+    }
+    .inner__account__links{
+        font-size: 2.5rem;
+    }
+    /**end of section 6**/
+    .pargph{
+        color: #58585a;
+    }
+    .fa-facebook-square{
+        color:#3b5998;
+    }
+    .fa-twitter-square{
+        color: #00acee;
+    }
+    .fa-linkedin{
+        color: #0077b5;
+    }
+
+    .account__links{
+        margin-left: 2.5rem;
+        display: flex;
+        gap: 1rem;
     }
