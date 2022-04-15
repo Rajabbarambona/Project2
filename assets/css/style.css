@@ -227,3 +227,30 @@
         color: #fff;
     }
     /**End of section 4**/
+    /**start of section 8**/
+
+    .articles{
+        font-size: 0.75rem;
+        
+    }
+   .footer__heading{
+       padding-left: 2.5rem;
+       color: #535657;
+   }
+    a{
+       text-decoration: none;
+       color: #808080; 
+   }
+   a:hover{
+       color: #535657;
+       text-decoration: underline;
+   }
+   .footer__list li{
+       padding-right: 2.5rem;
+       list-style: none;
+      
+   }
+    li{
+       padding-top: 1rem;
+   }
+   
