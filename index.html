@@ -13,28 +13,30 @@
 </head>
 
 <body>
+
     <header>
         <!--Parent root =container with 2 children: header left & header right-->
-        <div class="container">
-            <!--start of first child-->
-            <div class="header_left">
-                <!--Navigation-->
-                <nav class="linkss">
-                    <ul class="left_links">
-                        <li>
-                            <a href="#"><img src="./assets/images/msicon.png" class="msicon"></a>
-                        </li>
-                        <li><a href="#">Microsoft 365</a></li>
-                        <li><a href="#">Windows</a></li>
-                        <li><a href="#">Surface</a></li>
-                        <li><a href="#">Xbox</a></li>
-                        <li><a href="#">Deals</a></li>
-                        <li><a href="#">Support</a></li>
-                    </ul>
+        <div class="header-content container">
+
+            <!-- ms logo  -->
+            <div class="logo_image">
+                <a href="#"><img src="./assets/images/msicon.png" class="msicon"></a>
             </div>
-            <!--End of first child -->
-            <!--starting of the 2nd child-->
-            <div class="header_right">
+
+            <!-- nav section  -->
+            <nav>
+
+                <!--Navigation-->
+                <ul class="left_links">
+
+                    <li><a href="#">Microsoft 365</a></li>
+                    <li><a href="#">Windows</a></li>
+                    <li><a href="#">Surface</a></li>
+                    <li><a href="#">Xbox</a></li>
+                    <li><a href="#">Deals</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+
                 <ul class="right_links">
                     <li><a href="#">All Microsoft</a><a href="#"><i class="fa-brands fa-get-pocket"></a></i>
                     </li>
@@ -52,146 +54,228 @@
                     </div>
                     <div class="carts">
 
-                        <li><a href="#"><span class="icon">sign In</span></a></li>
+                        <li><a href="#"><span class="signin">sign In</span></a></li>
                         <li>
                             <a href="#"><i class="fa-solid fa-circle-user fa-2x"></i></a>
                         </li>
                     </div>
 
                 </ul>
-            </div>
+
             </nav>
+
         </div>
     </header>
+    <!-- end of header -->
+
     <!--Main has got 6 sections-->
     <main>
-        <!--Beginning of Section 1-->
-        <section class="laptop_section">
-            <div class="laptop_container">
+        <div class="container">
+
+            <!--Beginning of Section 1-->
+            <section class="laptop_section">
+
+                <img src="./assets/images/designer1.webp" alt="designer">
+
                 <div class="hp_laptop">
 
                     <h1>Surface Pro 8</h1>
                     <p class="text">Do more with a larger 13-inch touchscreen, faster connections, and extra<br> speed .Now available with Windows 11.</p>
 
-                    <a href="#"> <button class="btn">Shop now<i class="fa-solid fa-greater-than"></i>
+                    <a href="#"> <button class="btnshopnow">Shop now<i class="fa-solid fa-greater-than "></i>
                     </a></button>
                 </div>
-                <div class="designer">
-                    <img src="./assets/images/designer1.png" class="designer" alt="designer">
-                </div>
-            </div>
-        </section>
-        <!--End of Section 1-->
 
-        <!--Beginning of Section 2-->
-        <section class="accessories_section">
-            <div class="accessories_container">
+            </section>
+            <!--End of Section 1-->
 
+            <!--Beginning of Section 2-->
+            <section class="accessories_section">
 
-                <a href="#"><img src="./assets/images/blackmsicon.png" class="windowicon" alt="windowicon">
-                    <p>Choose your <br>Microsoft</p>
-                </a>
+                <div class="accessories_container">
 
-                <a href="#"><img src="./assets/images/tablet.png" class="windowicon" alt="tablet">
-                    <p>Shop Surface <br>Devices</p>
-                </a>
-
-                <a href="#"><img src="./assets/images/xboxgame.png" class="windowicon" alt="xboxgame">
-                    <p>Buy Xbox games<br>and consoles</p>
-                </a>
-
-                <a href="#"><img src="./assets/images/blackmsicon.png" class="windowicon" alt="windowicon">
-                    <p>Get Windows 11</p>
-                </a>
-
-                <a href="#"><img src="./assets/images/pc.png" class="windowicon" alt="pc">
-                    <p>Find your next PC</p>
-                </a>
-
-                <a href="#"><img src="./assets/images/suitcase.png" class="windowicon" alt="suitcase">
-                    <p>Small Business<br>Solutions</p>
-                </a>
-
-
-            </div>
-        </section>
-        <!--End of Section 2-->
-        <!--Beginning of Section 3-->
-        <section class="devtools">
-            <div class="devtools_container">
-
-
-                <li>
-                    <a href="#"><img src="./assets/images/laptop1.png" class="tools" alt="laptop">
-                        <h3>Up to $100 off select Surface <br>Laptop 4</h3>
-                        <p>Do it all with a perfect balance of sleek <br>design, speed, and immersive audio.
-                            <br>Microsoft
-                        </p>
-                        <span class="btnshop">Shop Surface Laptop 4 <i class="fa-solid fa-greater-than"></i>
-                    </a></span>
+                    <a href="#"><img src="./assets/images/blackmsicon.png" class="windowicon" alt="windowicon">
+                        <p>Choose your <br>Microsoft</p>
                     </a>
-                </li>
 
-                <li>
-                    <a href="#"><img src="./assets/images/headphones1.png" class="tools" alt="headphones">
-                        <h3>Never miss a beat</h3>
-                        <p> Discover the latest audio from Surface, <br>featuring ultra -comfortable design,<br> immersive sound,
-                            <br> and all-day<br> battery.
-                        </p>
-
-                        <span class="btnshop"> Surface Earbuds <i class="fa-solid fa-greater-than"></i></span><br>
-                        <span class="btnshop"> Shop Surface Headphones 2 <i class="fa-solid fa-greater-than"></i></span>
+                    <a href="#"><img src="./assets/images/tablet.png" class="windowicon" alt="tablet">
+                        <p>Shop Surface <br>Devices</p>
                     </a>
-                </li>
 
-                <li>
-                    <a href="#"><img src="./assets/images/speaker1.png" class="tools" alt="speaker">
-                        <h3>Xbox Series S</h3>
-                        <p>Next-gen performance in the smallest <br>Xbox ever.</p>
-
-                        <span class="btnshop">Shop now <i class="fa-solid fa-greater-than"></i> </span>
+                    <a href="#"><img src="./assets/images/xboxgame.png" class="windowicon" alt="xboxgame">
+                        <p>Buy Xbox games<br>and consoles</p>
                     </a>
-                </li>
 
-                <li>
-                    <a href="#"><img src="./assets/images/games1.png" class="tools" alt="Games">
-                        <h3>PC Game Pass</h3>
-                        <p>Unlock 100+ great games and EA Play, plus <br>get your first monthfor $1. Offer available to
-                            <br> new
-                            <br>subscribers
-                            <br>
-                            <br> only.
-                        </p>
-
-                        <span class="btnjoinnow">Join now <i class="fa-solid fa-greater-than"></i></span>
-                        <span class="btncompare">Compare all plans <i class="fa-solid fa-greater-than"></i>
-                        </span>
+                    <a href="#"><img src="./assets/images/blackmsicon.png" class="windowicon" alt="windowicon">
+                        <p>Get Windows 11</p>
                     </a>
-                </li>
-            </div>
-        </section>
-        <!--End of Section 3-->
-        <!--Beginning of Section 4-->
-        <section class="twins">
-            <div class="twins_container">
-                <div class="blue_twins">
-                    <h1 class="windows">Windows 11</h1>
-                    <p class="twins_text">See how windows 11 brings you closer to what you love.</p>
 
-                    <a href="#"> <button class="btn">Explore Windows 11 <i
-                                class="fa-solid fa-greater-than"></i></a></button>
+                    <a href="#"><img src="./assets/images/pc.png" class="windowicon" alt="pc">
+                        <p>Find your next PC</p>
+                    </a>
+
+                    <a href="#"><img src="./assets/images/suitcase.png" class="windowicon" alt="suitcase">
+                        <p>Small Business<br>Solutions</p>
+                    </a>
+
                 </div>
 
-                <div>
-                    <img src="./assets/images/twins.png" class="twin" alt="designer">
+            </section>
+            <!--End of Section 2-->
+
+            <!--Beginning of Section 3-->
+            <section class="devtools">
+                <div class="devtools_list">
+
+                    <li>
+                        <a href="#"><img src="./assets/images/picss/laptop(2).png" class="tools" alt="laptop">
+                            <h3>Up to $100 off select Surface <br>Laptop 4</h3>
+                            <p>Do it all with a perfect balance of sleek <br>design, speed, and immersive audio.
+                                <br>Microsoft
+                            </p>
+                            <span class="btnshop">Shop Surface Laptop 4 <i class="fa-solid fa-greater-than fa-1x"></i>
+                        </a></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"><img src="./assets/images/picss/headphones(2).png" class="tools" alt="headphones">
+                            <h3>Never miss a beat</h3>
+                            <p> Discover the latest audio from Surface, <br>featuring ultra -comfortable design,<br> immersive sound,
+                                <br> and all-day<br> battery.
+                            </p>
+
+                            <span class="btnshop"> Surface Earbuds <i
+                                    class="fa-solid fa-greater-than fa-1x"></i></span><br>
+                            <span class="btnshop"> Shop Surface Headphones 2 <i
+                                    class="fa-solid fa-greater-than"></i></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"><img src="./assets/images/picss/RWPGs4_002.png" class="tools" alt="speaker">
+                            <h3>Xbox Series S</h3>
+                            <p>Next-gen performance in the smallest <br>Xbox ever.</p>
+
+                            <span class="btnshop">Shop now <i class="fa-solid fa-greater-than fa-1x"></i> </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"><img src="./assets/images/picss/xbox.png" class="tools" alt="Games">
+                            <h3>PC Game Pass</h3>
+                            <p>Unlock 100+ great games and EA Play, plus <br>get your first monthfor $1. Offer available to
+                                <br> new
+                                <br>subscribers
+                                <br>
+                                <br> only.
+                            </p>
+
+                            <span class="btnjoinnow">Join now <i class="fa-solid fa-greater-than fa-1x"></i></span>
+                            <span class="btncompare">Compare all plans <i class="fa-solid fa-greater-than fa-1x"></i>
+                            </span>
+                        </a>
+                    </li>
                 </div>
+            </section>
+            <!--End of Section 3-->
+
+
+            <!--Beginning of Section 4-->
+            <section class="twins">
+                <div class="butterfly_container">
+
+                    <img src="./assets/images/games.jpg" class="twin" alt="games">
+
+
+                    <div class="butter">
+                        <h1 class="butterfly">PC Games Pass</h1>
+                        <p class="butterfly_text">Unlock 100+ great games and EA Play, plus get your first month for $1. Offer available to new suscribers only.</p>
+
+                        <a href="#"> <button class="btn">Join now<i
+                                    class="fa-solid fa-greater-than fa-1x"></i></a></button>
+                            <a href="#"> <button class="btn_2">Compare all plans<i
+                                    class="fa-solid fa-greater-than fa-1x"></i></a></button>
+                    </div>
+                </div>
+            </section>
+            <!--End of Section 4-->
+
+            <!-- <div class="business">
+                <h2>For business</h2>
             </div>
-        </section>
-        <!--End of Section 4-->
+
+            <section class="devtools dev-2">
+                <div class="devtools_list">
+
+                    <li>
+                        <a href="#"><img src="./assets/images/cloud.webp" class="tools" alt="laptop">
+                            <h3>Welcome to your Windows 365 Cloud PC</h3>
+                            <p>Securely strem your Windows from the Microsoft cloud to any device.
+                            </p>
+                            <span class="btnshop">Get it today <i class="fa-solid fa-greater-than fa-1x"></i>
+                        </a></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"><img src="./assets/images/team.webp" class="tools" alt="teamApp">
+                            <h3>Get Microsoft Teams for free</h3>
+                            <p> Get onlie meeting, chat, and shared cloud storage - all in one place with the freee version of Microsoft Teams
+                            </p>
+
+                            <span class="btnshop">Sign up for free <i class="fa-solid fa-greater-than fa-1x"></i></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"><img src="./assets/images/surface.webp" class="tools" alt="surface">
+                            <h3>Suface Pro 8 fro Business Essentials Bundle</h3>
+                            <p>Enhanceproductivity with Surface Pro 8 (optional LTE connectivity), Surface Pro Signature Keyboard, and Microsoft complete Protection Plan. Questions? Book an online</p>
+
+                            <span class="btnshop">Shop now <i class="fa-solid fa-greater-than fa-1x"></i> </span>
+                            <span class="btnshop">Book a Consultation <i class="fa-solid fa-greater-than fa-1x"></i>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#"><img src="./assets/images/hybrid.jpg" class="tools" alt="Games">
+                            <h3>Thrive in a hybrid world</h3>
+                            <p>
+                                Discover tools, resources, and strategies to help your employees succeed in the new world of flexible work.
+                            </p>
+
+                            <span class="btncompare">Learn more <i class="fa-solid fa-greater-than fa-1x"></i>
+                            </span>
+                        </a>
+                    </li>
+                </div>
+            </section>
+
+            <!-- bottom hero img  -->
+            <!-- <section class="butter">
+                <div class="butterfly_container">
+
+                    <img src="./assets/images/earth_day.jpg" class="twin" alt="designer">
+
+
+                    <div class="butter">
+                        <h1 class="butterfly">Windows 11</h1>
+                        <p class="butterfly_text">See how windows 11 brings you closer to what you love.</p>
+
+                        <a href="#"> <button class="btn">Explore Windows 11 <i
+                                    class="fa-solid fa-greater-than fa-1x"></i></a></button>
+                    </div>
+                </div>
+
+
+            </section> -->
+        </div>
     </main>
     <footer>
-        <div class="footer___container">
-            <section class="footer_section container">
+        <div class="footer___container container">
+            <!-- <section class="footer_section container">
                 <article class="articles">
                     <h4 class="footer__heading">What's new</h4>
                     <ul class="footer__list">
@@ -270,10 +354,10 @@
                         <li><a href="#">Sustainability</a></li>
                     </ul>
                 </article>
-            </section>
+            </section> -->
 
         </div>
-    </footer>
+    </footer> -->
 </body>
 
 </html>
