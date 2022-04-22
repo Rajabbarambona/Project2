@@ -244,32 +244,96 @@
             color: #fff;
         }
         /**End of section 4**/
-        /**start of section 8**/
-        
-        .articles {
-            font-size: 0.75rem;
+
+    /**start of section 6**/
+        .container{
+          width: 95%;
+          max-width: 95%;
+          margin: 0 auto;
         }
-        
-        .footer__heading {
-            padding-left: 2.5rem;
-            color: #535657;
+        .section__container{
+          padding-top: 1rem;     
         }
-        
-        a {
-            text-decoration: none;
-            color: #808080;
+       .inner__section{
+          padding: 1rem 0;
+          background-color: #bbb8b8;
         }
-        
-        a:hover {
-            color: #535657;
-            text-decoration: underline;
+        .photos{
+          margin: 0 auto;
+          padding-right:1rem;
+          float: right;
+          width: 100%;
+          max-width: 20%;
         }
-        
-        .footer__list li {
-            padding-right: 2.5rem;
-            list-style: none;
+        .page{
+           text-align: center;
+           padding-top: 9rem;  
         }
-        
-        li {
-            padding-top: 1rem;
+        .section__btn{
+           padding: 0.75rem 2rem;
+           border: #000;
+           background-color: #000;
         }
+        .fa-solid,
+        .link{
+           text-decoration: none;
+           color: #fff;
+        }
+        .link:hover{
+           background-color: #4b4b4d;
+           text-decoration: underline;
+        }
+        .inner__account__links{
+           font-size: 2.5rem;
+        }
+    /**end of section 6**/
+
+
+    /**start of section 7**/
+        .pargph{
+            color: #58585a;
+        }
+        .fa-facebook-square{
+            color:#3b5998;
+        }
+        .fa-twitter-square{
+            color: #00acee;
+        }
+        .fa-linkedin{
+            color: #0077b5;
+        }
+        .account__links{
+            margin-left: 2.5rem;
+            display: flex;
+            gap: 1rem;
+        }
+    /** end of section 7**/
+    /**start of section 8**/
+        
+    .container{
+        width: 95%;
+        max-width: 95%;
+        margin: 0 auto;
+      }
+    .articles {
+       font-size: 0.75rem;
+    }  
+    .footer__heading {
+        padding-left: 2.5rem;
+        color: #535657;
+    }   
+    a{
+         text-decoration: none;
+         color: #808080;
+    }
+    a:hover {
+        color: #535657;
+        text-decoration: underline;
+    } 
+    .footer__list li {
+        padding-right: 2.5rem;
+        list-style: none;
+    }
+    li {
+        padding-top: 1rem;
+    }
