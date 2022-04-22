@@ -5,15 +5,37 @@
             background-color: #fff;
         }
         
+        ul,
+        li {
+            list-style: none;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+        /* header css  */
+        
         header {
-            max-width: 100%;
-            padding: 0 20rem;
-            background-color: #fff;
+            height: 100%;
+            min-height: 54px;
+            /* padding: 0 20rem; */
+        }
+        
+        .header-content {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
         }
         
         header li {
             padding: 15px;
-            flex-wrap: wrap;
         }
         
         header a {
@@ -24,49 +46,56 @@
             color: #4169e1;
         }
         
-        .left_links {
+        nav {
             display: flex;
             flex-wrap: wrap;
-            padding-top: 15px;
-            list-style: none;
-        }
-        
-        .container {
-            max-width: 100%;
-            display: flex;
-            flex-wrap: wrap;
+            flex: 1;
             justify-content: space-between;
-            border-radius: 3px;
-            flex-wrap: wrap;
+            /* background-color: antiquewhite; */
         }
-        /*.designer {
-        position: relative;
-        right: -440px;
-        top: -296px;
-    }
-    */
         
+        .logo_image {
+            /* background-color: tomato; */
+            float: left;
+            width: 100%;
+            max-width: 137px;
+        }
+        
+        .left_links,
         .right_links {
             display: flex;
             flex-wrap: wrap;
-            padding-top: 15px;
+            /* padding-top: 15px; */
             list-style: none;
         }
         
         .carts {
             display: flex;
-            padding: 0 0 0 5px;
+            /* padding: 0 0 0 5px; */
+        }
+        /* Header end */
+        /* main css  */
+        
+        .laptop_section {
+            position: relative;
+            /* padding-inline: 20rem; */
         }
         
-        .icon {
-            padding-top: 15px;
+        .laptop_section img {
+            width: 100%;
+            max-width: 1600px;
         }
         
-        h1 {
+        .hp_laptop {
+            position: absolute;
+            top: 10%;
+            left: 8%;
+        }
+        
+        .hp_laptop h1 {
             font-size: 34px;
             line-height: 40px;
             margin: -3px 0 0;
-            padding-top: 0px;
             font-weight: 600;
         }
         
@@ -79,26 +108,41 @@
             max-height: 80px;
         }
         
-        .fa-greater-than {
-            padding-left: 10px;
-        }
-        
         .fa-get-pocket {
             padding-left: 6px;
         }
+        /* btn css  */
         
         .btn a {
             text-decoration: none;
         }
         
         .btn {
-            max-width: 12rem;
-            padding: 15px;
+            font-size: 15px;
+            padding: 10px 20px 6px 22px;
+            border: 2px solid transparent;
+            outline: 1px solid transparent;
+            max-width: 100%;
             color: #fff;
-            background-color: #59cdf3fb;
-            font-size: 1.5rem;
-            margin-top: 3rem;
-            box-sizing: content-box;
+            font-weight: 600;
+            text-align: center;
+            text-decoration: none;
+            letter-spacing: 0;
+            transition: all 200ms ease-in-out;
+            background: #f1eaea;
+        }
+        
+        .butter .btn_2 {
+            font-size: 15px;
+            padding: 10px 20px 6px 22px;
+            border: 2px solid transparent;
+            outline: 1px solid transparent;
+            max-width: 100%;
+            font-weight: 600;
+            text-align: center;
+            text-decoration: none;
+            letter-spacing: 0;
+            transition: all 200ms ease-in-out;
         }
         
         .btn :hover {
@@ -107,22 +151,21 @@
             font-weight: 400;
         }
         
-        .hp_laptop {
+        .btnshopnow {
+            font-size: 15px;
+            padding: 10px 20px 6px 22px;
+            border: 2px solid transparent;
+            outline: 1px solid transparent;
             max-width: 100%;
-            padding: 4rem 0 0 4rem;
+            color: #fff;
+            font-weight: 600;
+            text-align: center;
+            text-decoration: none;
+            letter-spacing: 0;
+            transition: all 200ms ease-in-out;
+            background: #1d1a1a
         }
-        
-        .laptop_container {
-            display: flex;
-            flex-wrap: wrap;
-            max-width: 200rem;
-            justify-content: space-between;
-            background-color: #e3e7f387;
-        }
-        
-        .laptop_section {
-            padding-inline: 20rem;
-        }
+        /* btn css  */
         /**Starting of Section 2*/
         
         .accessories_container {
@@ -145,28 +188,25 @@
         .windowicon {
             margin-left: 1.8rem;
         }
-        /**End of Section 2**/
-        /**Starting of Section 3**/
+        /*
+        .dev_tools {
+            background-color: #ff1900;
+        }
+        */
         
-        .devtools_container {
-            max-width: 200rem;
+        .devtools_list {
             display: flex;
-            flex-wrap: wrap;
-            padding-left: 12px;
-            padding-right: 12px;
-            justify-content: center;
-            margin: auto;
-            padding-top: 3rem;
-            gap: 25px;
-            list-style: none;
-            margin-bottom: 3rem;
+            justify-content: space-between;
+            /* gap: 3rem; */
         }
         
-        .devtools_container a {
-            text-decoration: none;
+        .devtools_list li,
+        .devtools_list li a img {
+            width: 100%;
+            max-width: 382px;
         }
         
-        h3 {
+        .devtools_list h3 {
             font-size: 20px;
             line-height: 24px;
             font-weight: 600;
@@ -174,11 +214,6 @@
             padding-top: 1px;
             padding-bottom: 2px;
             margin-top: 37px;
-        }
-        
-        .tools {
-            width: 300px;
-            height: 215px;
         }
         
         .btnshop {
@@ -215,36 +250,32 @@
         .btncompare:hover {
             border-bottom: 3px solid #0067b8;
         }
-        /**Beginning of section 4**/
         
-        .twins_container {
-            max-width: 77rem;
-            max-height: 33rem;
+        .butterfly_container {
             display: flex;
-            background-color: rgba(6, 81, 186, 0.94);
             flex-wrap: wrap;
-            padding-left: 12px;
-            padding-right: 12px;
             justify-content: center;
-            margin: auto;
             padding-top: 3rem;
         }
         
-        .twin {
+        .twins {
             position: relative;
-            right: -90px;
-            top: -45px;
         }
         
-        .windows {
-            color: #fff;
+        .butter {
+            position: absolute;
+            top: 35%;
+            left: 5%;
         }
         
-        .twins_text {
-            color: #fff;
+        .butterfly {
+            color: #f1eaea;
         }
-        /**End of section 4**/
-        /**start of section 8**/
+        
+        .butterfly_text {
+            color: #fff;
+            max-width: 500px;
+        }
         
         .articles {
             font-size: 0.75rem;
