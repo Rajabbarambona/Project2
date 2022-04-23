@@ -276,6 +276,68 @@
             color: #fff;
             max-width: 500px;
         }
+
+
+        /**start of css section 6**/
+        .inner__section{
+            height: 30rem;
+            max-width: 3000px;
+            margin-top: 1rem;
+            padding: 1rem 0;
+            background-color: #bbb8b8;
+        }
+        .photos{
+            margin: 0 auto;
+            padding-right:1rem;
+            float: right;
+            width: 100%;
+            max-width: 20%;
+        }
+        .page{
+          text-align: center;
+          padding-top: 9rem;  
+        }
+        .section__btn{
+            padding: 0.75rem 2rem;
+            border: #000;
+            background-color: #000;
+        }
+        /**end of section 6 css**/
+
+        /**start of css section 7**/
+        .account__links{
+            display: flex;
+            gap: 1rem;
+        }
+        .pargph{
+            color: #58585a;
+        }
+        .fa-facebook-square{
+            color:#3b5998;
+        }
+        .fa-twitter-square{
+            color: #00acee;
+        }
+        .fa-linkedin{
+            color: #0077b5;
+        }
+        /**end of css section 7**/
+
+        
+        .fa-solid,
+        .link{
+            text-decoration: none;
+            color: #fff;
+        }
+        .link:hover{
+            background-color: #4b4b4d;
+            text-decoration: underline;
+        }
+        .inner__account__links{
+            font-size: 2.5rem;
+        }
+
+
         
         .articles {
             font-size: 0.75rem;
