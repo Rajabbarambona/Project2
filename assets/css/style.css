@@ -4,6 +4,7 @@
             color: #000;
             background-color: #fff;
         }
+        /* container & beginning of the header */
         
         ul,
         li {
@@ -24,8 +25,8 @@
         header {
             height: 100%;
             min-height: 54px;
-            /* padding: 0 20rem; */
         }
+        /* image&left_links&right_links */
         
         .header-content {
             display: flex;
@@ -45,17 +46,16 @@
         header li a:hover {
             color: #4169e1;
         }
+        /* right&left links */
         
         nav {
             display: flex;
             flex-wrap: wrap;
             flex: 1;
             justify-content: space-between;
-            /* background-color: antiquewhite; */
         }
         
         .logo_image {
-            /* background-color: tomato; */
             float: left;
             width: 100%;
             max-width: 137px;
@@ -68,18 +68,21 @@
             /* padding-top: 15px; */
             list-style: none;
         }
+        /* header icons */
         
         .carts {
             display: flex;
             /* padding: 0 0 0 5px; */
         }
         /* Header end */
-        /* main css  */
+        /********************************************/
+        /* raj main css (4sections)  */
         
         .laptop_section {
             position: relative;
             /* padding-inline: 20rem; */
         }
+        /* section big_img */
         
         .laptop_section img {
             width: 100%;
@@ -107,10 +110,10 @@
             font-weight: 400;
             max-height: 80px;
         }
-        
-        .fa-get-pocket {
+        /* end of section_one */
+        /* .fa-get-pocket {
             padding-left: 6px;
-        }
+        } */
         /* btn css  */
         
         .btn a {
