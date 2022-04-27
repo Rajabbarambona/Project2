@@ -1,9 +1,3 @@
-*,
-::before,
-::after {
-    box-sizing: border-box;
-}
-
 body {
     font-size: 15px;
     font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -14,6 +8,19 @@ body {
 
 /* container & beginning of the header */
 
+.container {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+    /* max-height: 54px; */
+    /* background-color: aqua; */
+    z-index: 999;
+}
+
 ul,
 li {
     list-style: none;
@@ -23,21 +30,8 @@ a {
     text-decoration: none;
 }
 
-.container {
-    width: 100%;
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
 
 /* header css  */
-
-header {
-    position: relative;
-    /* max-height: 54px; */
-    /* background-color: aqua; */
-    z-index: 999;
-}
 
 
 /* image&left_links&right_links */
@@ -47,6 +41,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    font-size: 13px !important;
     /* justify-content: space-between; */
     /* background-color: green; */
     /* max-height: 54px; */
@@ -76,6 +71,28 @@ nav {
     display: flex;
 }
 
+.fa-chevron-down {
+    /* padding-left: 0.4rem;
+    color: #b1b2b2;
+    padding-top: 0.2rem; */
+    padding-left: 0.5rem;
+    color: #b1b2b2;
+    padding-top: 0.2rem;
+}
+
+.fa-cart-shopping {
+    padding-left: 0.4rem;
+    padding-top: 0.2rem;
+}
+
+
+/* search icon or magnify */
+
+nav img {
+    padding-left: 0.5rem;
+    cursor: pointer;
+}
+
 .left_links,
 .right_links {
     display: flex;
@@ -87,8 +104,11 @@ nav {
 .right_links li {
     display: flex;
     padding-right: 15px;
-    /* min-height: 50px; */
-    /* background-color: antiquewhite; */
+}
+
+.left_links a:hover,
+.right_links a:hover {
+    border-bottom: 2px solid #000;
 }
 
 .signin {
@@ -173,13 +193,13 @@ nav {
     border: 2px solid transparent;
     outline: 1px solid transparent;
     max-width: 100%;
-    color: #fff;
+    color: #000;
     font-weight: 600;
     text-align: center;
     text-decoration: none;
     letter-spacing: 0;
     transition: all 200ms ease-in-out;
-    background: #f1eaea;
+    background: #fff;
 }
 
 .butter .btn_2 {
@@ -196,7 +216,7 @@ nav {
 }
 
 .btn :hover {
-    border-bottom: 5px solid #ff1900;
+    border-bottom: 2px solid #fff;
     transition: .3s ease-in-out;
     font-weight: 400;
 }
@@ -216,6 +236,10 @@ nav {
     background: #1d1a1a
 }
 
+.btnshopnow :hover {
+    border-bottom: 2px solid #fff;
+}
+
 
 /* btn css  */
 
@@ -227,19 +251,19 @@ nav {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding-top: 3rem;
+    margin-block: 4rem;
 }
 
 .accessories_container a {
     font-size: 15px;
-    padding: 2rem 2rem 0;
+    margin-inline: 2rem;
+    text-align: center;
     text-decoration: none;
-    color: #4169e1;
 }
 
-.accessories_container a:hover {
-    /* border-bottom: 3px solid #4169e1; */
-    color: #4169e1;
+.accessories_container p:hover {
+    border-bottom: 1px solid #000;
+    color: #000;
 }
 
 .windowicon {
@@ -265,7 +289,8 @@ nav {
     max-width: 382px;
 }
 
-.devtools_list h3 {
+.devtools_list h3,
+.devtools_list p {
     font-size: 20px;
     line-height: 24px;
     font-weight: 600;
@@ -273,6 +298,7 @@ nav {
     padding-top: 1px;
     padding-bottom: 2px;
     margin-top: 37px;
+    color: #0067b8;
 }
 
 .btnshop {
@@ -286,13 +312,26 @@ nav {
     border-bottom: 3px solid #0067b8;
 }
 
-.btnjoinnow {
+.btnjoinnow ::after {
     max-width: 100%;
     color: #0067b8;
     padding-top: 15px;
     font-weight: 700;
     margin: 0 4px 0 0;
     padding: 10px 16px 7px 0;
+}
+
+.btnjoinnow :hover {
+    border-bottom: 3px solid #0067b8;
+}
+
+i {
+    transition: transform 200ms ease-in-out;
+}
+
+.fa-greater-than {
+    padding-left: 0.5rem;
+    font-size: 13px !important;
 }
 
 .btncompare {
@@ -302,11 +341,7 @@ nav {
     font-weight: 700;
 }
 
-.btnjoinnow:hover {
-    border-bottom: 3px solid #0067b8;
-}
-
-.btncompare:hover {
+.btncompare :hover {
     border-bottom: 3px solid #0067b8;
 }
 
