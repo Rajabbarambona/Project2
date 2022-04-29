@@ -78,6 +78,7 @@ nav {
     padding-left: 0.5rem;
     color: #b1b2b2;
     padding-top: 0.2rem;
+    cursor: pointer;
 }
 
 .fa-cart-shopping {
@@ -154,6 +155,7 @@ nav img {
     position: absolute;
     top: 10%;
     left: 8%;
+    /* transform: translateY(50%); */
 }
 
 .hp_laptop h1 {
@@ -162,6 +164,12 @@ nav img {
     margin: -3px 0 0;
     font-weight: 600;
 }
+
+
+/* 
+.btnshopnow :hover {
+    border-bottom: 2px solid #fff;
+} */
 
 .text {
     font-family: Helvetica, sans-serif;
@@ -183,11 +191,12 @@ nav img {
 
 /* btn css  */
 
-.btn a {
+.btn_1 a {
     text-decoration: none;
+    /* color: #0067b8; */
 }
 
-.btn {
+.btn_1 {
     font-size: 15px;
     padding: 10px 20px 6px 22px;
     border: 2px solid transparent;
@@ -200,6 +209,10 @@ nav img {
     letter-spacing: 0;
     transition: all 200ms ease-in-out;
     background: #fff;
+}
+
+.btn_1:hover a {
+    border-bottom: 2px solid #000;
 }
 
 .butter .btn_2 {
@@ -215,38 +228,92 @@ nav img {
     transition: all 200ms ease-in-out;
 }
 
-.btn :hover {
+
+/* 
+.btn :hover a {
     border-bottom: 2px solid #fff;
     transition: .3s ease-in-out;
     font-weight: 400;
-}
+} */
 
+
+/* 
 .btnshopnow {
-    font-size: 15px;
-    padding: 10px 20px 6px 22px;
-    border: 2px solid transparent;
-    outline: 1px solid transparent;
-    max-width: 100%;
-    color: #fff;
-    font-weight: 600;
-    text-align: center;
+    display: inline-block;
+    align-items: center;
     text-decoration: none;
-    letter-spacing: 0;
-    transition: all 200ms ease-in-out;
-    background: #1d1a1a
+    position: relative;
+    left: 0;
+    text-overflow: clip;
+    overflow: hidden;
+    line-height: 18.5px;
+    padding: 10px 22px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-right: 24px;
 }
 
-.btnshopnow :hover {
+.btnshopnow a :hover {
     border-bottom: 2px solid #fff;
 }
+
+.btnshopnow i {
+    transition: transform 200ms ease-in-out;
+}
+
+.btnshopnow:hover i {
+    transform: translateX(50%);
+} */
 
 
 /* btn css  */
 
+.btn {
+    width: fit-content;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: .6rem 1rem;
+    cursor: pointer;
+}
 
-/**Starting of Section 2*/
+.btn_bg-white {
+    background-color: #fff;
+    color: #000;
+}
 
-.accessories_container {
+.btn_bg-black {
+    background-color: #000;
+    color: #fff;
+}
+
+.btn:hover a {
+    border-bottom: 2px solid;
+}
+
+.text_clr-white {
+    color: #fff !important;
+}
+
+.text_clr-black {
+    color: #000 !important;
+}
+
+.fa-chevron-right {
+    padding-left: 0.5rem;
+    font-size: 13px !important;
+}
+
+
+/* button css ends here*/
+
+.hp_laptop p {
+    margin-bottom: 2rem;
+}
+
+
+/* Starting of Section 2 */
+
+.accessories {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -254,21 +321,97 @@ nav img {
     margin-block: 4rem;
 }
 
-.accessories_container a {
-    font-size: 15px;
-    margin-inline: 2rem;
+.access {
+    display: flex;
+    justify-content: center;
+    margin-inline: 3rem;
+    font-weight: 600;
+    cursor: pointer;
+    /* padding: 12px 6px; */
+}
+
+.accessories li {
+    width: 100%;
+    max-width: 150px;
+    min-height: 44px;
+}
+
+.access {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.access a {
+    display: inline-block;
+    padding: 12px 6px;
+    min-height: 44px;
+}
+
+.access a:hover {
+    text-decoration: underline;
+}
+
+.access img {
+    max-width: 40px;
+}
+
+
+/* 
+.accessories_container :hover {
+    border-bottom: 2px solid #0067b8;
+} */
+
+
+/* STARTING OF SECTION 2 */
+
+.services_section {
+    height: 25vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+
+/* SELECTING THE SERVICE */
+
+.service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* SELECTING ANCHOR TAG */
+
+.service a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    text-decoration: none;
+    color: #0067b8;
+    font-weight: 600;
 }
 
-.accessories_container p:hover {
-    border-bottom: 1px solid #000;
-    color: #000;
+
+/* ANCHOR TAG ON HOVER */
+
+.service a:hover {
+    text-decoration: underline;
 }
 
-.windowicon {
-    margin-left: 1.8rem;
+
+/* TARGETTING THE IMAGE INSIDE THE ANCHOR TAG */
+
+.service a img {
+    padding-bottom: 0.3rem;
 }
+
+
+/* END OF SECTION 2 */
+
+
+/* .para :hover {
+    border-bottom: 1px solid #0067b8;
+} */
 
 
 /*
@@ -278,9 +421,13 @@ nav img {
         */
 
 .devtools_list {
+    width: 100%;
+    max-width: 1600px;
+}
+
+.devtools_list {
     display: flex;
     justify-content: space-between;
-    /* gap: 3rem; */
 }
 
 .devtools_list li,
@@ -289,8 +436,7 @@ nav img {
     max-width: 382px;
 }
 
-.devtools_list h3,
-.devtools_list p {
+.devtools_list h3 {
     font-size: 20px;
     line-height: 24px;
     font-weight: 600;
@@ -298,51 +444,12 @@ nav img {
     padding-top: 1px;
     padding-bottom: 2px;
     margin-top: 37px;
-    color: #0067b8;
 }
 
-.btnshop {
-    max-width: 100%;
-    color: #0067b8;
-    padding-top: 15px;
+.business h2 {
+    font-size: 20px;
     font-weight: 700;
-}
-
-.btnshop:hover {
-    border-bottom: 3px solid #0067b8;
-}
-
-.btnjoinnow ::after {
-    max-width: 100%;
-    color: #0067b8;
-    padding-top: 15px;
-    font-weight: 700;
-    margin: 0 4px 0 0;
-    padding: 10px 16px 7px 0;
-}
-
-.btnjoinnow :hover {
-    border-bottom: 3px solid #0067b8;
-}
-
-i {
-    transition: transform 200ms ease-in-out;
-}
-
-.fa-greater-than {
-    padding-left: 0.5rem;
-    font-size: 13px !important;
-}
-
-.btncompare {
-    max-width: 100%;
-    color: #0067b8;
-    padding-top: 15px;
-    font-weight: 700;
-}
-
-.btncompare :hover {
-    border-bottom: 3px solid #0067b8;
+    padding: 48px 0 15px 0;
 }
 
 .butterfly_container {
@@ -369,6 +476,7 @@ i {
 .butterfly_text {
     color: #fff;
     max-width: 500px;
+    padding-bottom: 1rem;
 }
 
 .articles {
