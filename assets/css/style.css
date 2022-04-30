@@ -229,44 +229,7 @@ nav img {
 }
 
 
-/* 
-.btn :hover a {
-    border-bottom: 2px solid #fff;
-    transition: .3s ease-in-out;
-    font-weight: 400;
-} */
-
-
-/* 
-.btnshopnow {
-    display: inline-block;
-    align-items: center;
-    text-decoration: none;
-    position: relative;
-    left: 0;
-    text-overflow: clip;
-    overflow: hidden;
-    line-height: 18.5px;
-    padding: 10px 22px;
-    text-decoration: none;
-    font-weight: 600;
-    margin-right: 24px;
-}
-
-.btnshopnow a :hover {
-    border-bottom: 2px solid #fff;
-}
-
-.btnshopnow i {
-    transition: transform 200ms ease-in-out;
-}
-
-.btnshopnow:hover i {
-    transform: translateX(50%);
-} */
-
-
-/* btn css  */
+/* BTN CSS  */
 
 .btn {
     width: fit-content;
@@ -304,62 +267,11 @@ nav img {
 }
 
 
-/* button css ends here*/
+/* END OF BTN HERE*/
 
 .hp_laptop p {
     margin-bottom: 2rem;
 }
-
-
-/* Starting of Section 2 */
-
-.accessories {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-block: 4rem;
-}
-
-.access {
-    display: flex;
-    justify-content: center;
-    margin-inline: 3rem;
-    font-weight: 600;
-    cursor: pointer;
-    /* padding: 12px 6px; */
-}
-
-.accessories li {
-    width: 100%;
-    max-width: 150px;
-    min-height: 44px;
-}
-
-.access {
-    display: inline-block;
-    vertical-align: top;
-}
-
-.access a {
-    display: inline-block;
-    padding: 12px 6px;
-    min-height: 44px;
-}
-
-.access a:hover {
-    text-decoration: underline;
-}
-
-.access img {
-    max-width: 40px;
-}
-
-
-/* 
-.accessories_container :hover {
-    border-bottom: 2px solid #0067b8;
-} */
 
 
 /* STARTING OF SECTION 2 */
@@ -401,6 +313,9 @@ nav img {
 
 /* TARGETTING THE IMAGE INSIDE THE ANCHOR TAG */
 
+
+/* space between the image & the text */
+
 .service a img {
     padding-bottom: 0.3rem;
 }
@@ -409,16 +324,7 @@ nav img {
 /* END OF SECTION 2 */
 
 
-/* .para :hover {
-    border-bottom: 1px solid #0067b8;
-} */
-
-
-/*
-        .dev_tools {
-            background-color: #ff1900;
-        }
-        */
+/* Beginnin of section 3 */
 
 .devtools_list {
     width: 100%;
@@ -450,7 +356,8 @@ nav img {
 .business h2 {
     font-size: 20px;
     font-weight: 700;
-    padding: 48px 0 15px 0;
+    padding-top: 3rem;
+    margin-bottom: -50px;
 }
 
 .butterfly_container {
