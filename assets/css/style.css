@@ -227,3 +227,13 @@
         color: #fff;
     }
     /**End of section 4**/
+    /**beggning of section 5**/
+    .shop_accessories {
+        display: flex;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        
+    }
+    button{
+        color: #0067b8;
+    }
