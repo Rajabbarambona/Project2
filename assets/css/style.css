@@ -434,6 +434,7 @@ nav img {
 .devtools_list li a img {
     width: 100%;
     max-width: 382px;
+    padding-top: 2rem;
 }
 
 .devtools_list h3 {
