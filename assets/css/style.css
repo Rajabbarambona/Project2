@@ -480,6 +480,68 @@ nav img {
     padding-bottom: 1rem;
 }
 
+/**start of section 6**/
+
+.section__container{
+    padding-top: 1rem;     
+}
+.inner__section{
+    height: 30rem;
+    padding: 1rem 0;
+    background-color: #bbb8b8;
+}
+.images__text{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.photos{
+    padding-right:1rem;
+    width: 17%;
+}
+.page{
+  text-align: center;
+  padding-top: 9rem;  
+}
+.section__btn{
+    padding: 0.75rem 2rem;
+    border: #000;
+    background-color: #000;
+}
+.fa-solid,
+.link{
+    text-decoration: none;
+    color: #fff;
+}
+.link:hover{
+    background-color: #4b4b4d;
+    text-decoration: underline;
+}
+.inner__account__links{
+    font-size: 2.5rem;
+}
+/**end of section 6**/
+
+
+/**start of section 7**/
+.account__links{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.pargph{
+    color: #58585a;
+}
+.fa-facebook-square{
+    color:#3b5998;
+}
+.fa-twitter-square{
+    color: #00acee;
+}
+.fa-linkedin{
+    color: #0077b5;
+
+}
 .articles {
     font-size: 0.75rem;
 }
