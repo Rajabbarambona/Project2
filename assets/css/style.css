@@ -184,11 +184,6 @@ nav img {
 /* end of section_one */
 
 
-/* .fa-get-pocket {
-            padding-left: 6px;
-        } */
-
-
 /* btn css  */
 
 .btn_1 a {
@@ -353,6 +348,37 @@ nav img {
     margin-top: 37px;
 }
 
+
+/* START SEC 4 */
+
+.business h2 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 3rem;
+    margin-bottom: -50px;
+}
+
+.twins {
+    position: relative;
+}
+
+.butter {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+
+.butterfly_text {
+    color: #fff;
+    max-width: 500px;
+    padding-bottom: 1rem;
+}
+
+
+/* BEGINNING OF SECTION 4 */
+
+
+/* 
 .business h2 {
     font-size: 20px;
     font-weight: 700;
@@ -367,7 +393,7 @@ nav img {
     padding-top: 3rem;
 }
 
-.twins {
+/* .twins {
     position: relative;
 }
 
@@ -376,7 +402,7 @@ nav img {
     top: 35%;
     left: 5%;
 }
-
+/* 
 .butterfly {
     color: #f1eaea;
 }
@@ -389,14 +415,4 @@ nav img {
 
 .articles {
     font-size: 0.75rem;
-}
-
-.footer__heading {
-    padding-left: 2.5rem;
-    color: #535657;
-}
-
-.footer__list li {
-    padding-right: 2.5rem;
-    list-style: none;
-}
+} */
