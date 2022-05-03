@@ -284,6 +284,19 @@ nav img {
 }
 
 
+/* Esea in out BTN */
+
+.fa-chevron-right {
+    cursor: pointer;
+    transition: all 0.2s;
+    background-color: none;
+}
+
+.fa-chevron-right:hover {
+    transform: scale(1.3);
+}
+
+
 /* END OF BTN HERE*/
 
 .hp_laptop p {
