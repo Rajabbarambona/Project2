@@ -324,12 +324,12 @@ nav img {
 .devtools_list {
     width: 100%;
     max-width: 1600px;
+    margin-bottom: 2rem;
 }
 
 .devtools_list {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 2rem;
 }
 
 .devtools_list li,
@@ -361,6 +361,7 @@ nav img {
 
 .twins {
     position: relative;
+    margin-bottom: 2rem;
 }
 
 .butter {
