@@ -14,12 +14,11 @@ body {
     margin: 0 auto;
 }
 
-header {
+
+/* header {
     position: relative;
-    /* max-height: 54px; */
-    /* background-color: aqua; */
     z-index: 999;
-}
+} */
 
 ul,
 li {
@@ -42,15 +41,12 @@ a {
     flex-wrap: wrap;
     align-items: center;
     font-size: 13px !important;
-    /* justify-content: space-between; */
-    /* background-color: green; */
-    /* max-height: 54px; */
 }
 
 .logo_image {
-    float: left;
+    /* float: left; */
     width: 100%;
-    max-width: 137px;
+    max-width: 130px;
     padding: 16px 6px 16px 10px;
 }
 
@@ -126,7 +122,6 @@ nav img {
     height: 32px;
     width: 32px;
     margin: 8px;
-    /* background-color: #0067b8; */
 }
 
 
