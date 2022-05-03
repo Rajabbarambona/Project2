@@ -297,6 +297,7 @@ nav img {
     height: 25vh;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    margin-inline: 15rem;
 }
 
 
