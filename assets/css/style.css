@@ -248,6 +248,20 @@ nav img {
     border-bottom: 2px solid;
 }
 
+
+/* Accessories btn */
+
+.devtools .btn i {
+    color: #000;
+}
+
+
+/* For business btn */
+
+.business i {
+    color: #000;
+}
+
 .text_clr-white {
     color: #fff !important;
 }
