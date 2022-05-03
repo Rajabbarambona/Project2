@@ -262,6 +262,14 @@ nav img {
     color: #000;
 }
 
+
+/* css white btn */
+
+.fa-1x {
+    padding-left: .5rem;
+    color: #000;
+}
+
 .text_clr-white {
     color: #fff !important;
 }
