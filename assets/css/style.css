@@ -287,7 +287,7 @@ nav img {
 
 .fa-chevron-right {
     cursor: pointer;
-    transition: all 0.2s;
+    transition: all 200ms ease-in-out;
     background-color: none;
 }
 
@@ -300,6 +300,10 @@ nav img {
 
 .hp_laptop p {
     margin-bottom: 2rem;
+}
+
+.right_links .fa-chevron-down {
+    color: #58585a;
 }
 
 
