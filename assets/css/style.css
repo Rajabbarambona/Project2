@@ -498,3 +498,100 @@ a,
 .articles {
     font-size: 0.75rem;
 }
+
+
+/* GEGINNING OF CSS FOOTER */
+
+
+/*footer start here */
+
+footer {
+    background-color: #f2f2f2;
+    margin-top: 3rem;
+    font-size: 11px !important;
+}
+
+.footer__container {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer__items a {
+    text-decoration: none;
+    color: #616161;
+}
+
+.footer__items a:hover {
+    text-decoration: underline;
+}
+
+.upper__footer_section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.rightside__list,
+.first__footer_list {
+    width: 100%;
+    max-width: 50rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 8rem;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    color: #616161;
+}
+
+.top__column {
+    padding: 36px 0 4px;
+    font-weight: 600;
+    font-size: 15px !important;
+    line-height: 20px;
+}
+
+.footer_links_heading {
+    line-height: 1rem;
+}
+
+.footer_links_heading li {
+    padding: 8px 0;
+}
+
+.footer__bottom_list,
+.footer__top_link:hover {
+    text-decoration: underline;
+    line-height: 16px;
+}
+
+.bottom_lists {
+    font-size: 11px;
+}
+
+.bottom__footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 72px;
+}
+
+.footer__bottom_list {
+    display: flex;
+    gap: 1rem;
+}
+
+.earth {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+
+.fa-earth-americas {
+    font-size: 20px;
+    display: block;
+    color: #616161;
+}
