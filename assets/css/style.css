@@ -511,7 +511,7 @@ footer{
     flex-wrap: wrap;
     gap: 4rem;
     align-items: center;
-    padding-left: 2rem;
+    padding-left: 8rem;
 }
 .articles{
     font-size: 0.80rem;
@@ -556,7 +556,7 @@ footer{
 }
 .last{
     padding-top: 4rem;
-    padding-left: 2rem;
+    padding-left: 8rem;
 }
 .last{
     padding-bottom: 2rem;
