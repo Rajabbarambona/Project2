@@ -1,437 +1,562 @@
-        body {
-            font-size: 15px;
-            font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-            color: #000;
-            background-color: #fff;
-        }
-        /* container & beginning of the header */
-        
-        .container {
-            width: 100%;
-            max-width: 1600px;
-            margin: 0 auto;
-        }
-        
-        header {
-            position: relative;
-            /* max-height: 54px; */
-            /* background-color: aqua; */
-            z-index: 999;
-        }
-        
-        ul,
-        li {
-            list-style: none;
-        }
-        
-        a {
-            text-decoration: none;
-        }
-        /* header css  */
-        /* image&left_links&right_links */
-        
-        .header-content {
-            /* position: relative; */
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            font-size: 13px !important;
-            /* justify-content: space-between; */
-            /* background-color: green; */
-            /* max-height: 54px; */
-        }
-        
-        .logo_image {
-            float: left;
-            width: 100%;
-            max-width: 137px;
-            padding: 16px 6px 16px 10px;
-        }
-        /* right&left links */
-        
-        nav {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            flex: 1;
-            justify-content: space-between;
-            padding-left: 20px;
-        }
-        
-        .nav_right,
-        .nav_right>div {
-            display: flex;
-        }
-        
-        .fa-chevron-down {
-            /* padding-left: 0.4rem;
+body {
+    font-size: 15px;
+    font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000;
+    background-color: #fff;
+}
+
+
+/* container & beginning of the header */
+
+.container {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+/* header {
+    position: relative;
+    z-index: 999;
+} */
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* header css  */
+
+
+/* image&left_links&right_links */
+
+.header-content {
+    /* position: relative; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 13px !important;
+}
+
+.logo_image {
+    /* float: left; */
+    width: 100%;
+    max-width: 130px;
+    padding: 16px 6px 16px 10px;
+}
+
+
+/* right&left links */
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex: 1;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.nav_right,
+.nav_right>div {
+    display: flex;
+}
+
+.fa-chevron-down {
+    /* padding-left: 0.4rem;
     color: #b1b2b2;
     padding-top: 0.2rem; */
-            padding-left: 0.5rem;
-            color: #b1b2b2;
-            padding-top: 0.2rem;
-            cursor: pointer;
-        }
-        
-        .fa-cart-shopping {
-            padding-left: 0.4rem;
-            padding-top: 0.2rem;
-        }
-        /* search icon or magnify */
-        
-        nav img {
-            padding-left: 0.5rem;
-            cursor: pointer;
-        }
-        
-        .left_links,
-        .right_links {
-            display: flex;
-            flex-wrap: wrap;
-            /* background-color: #ff1900; */
-        }
-        
-        .left_links li,
-        .right_links li {
-            display: flex;
-            padding-right: 15px;
-        }
-        
-        .left_links a:hover,
-        .right_links a:hover {
-            border-bottom: 2px solid #000;
-        }
-        
-        .signin {
-            max-width: 160px;
-            line-height: 48px;
-            vertical-align: top;
-            font-family: "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
-            font-size: 13px;
-            padding-left: 12px;
-            padding-right: 4px;
-        }
-        
-        .sign_plus {
-            height: 32px;
-            width: 32px;
-            margin: 8px;
-            /* background-color: #0067b8; */
-        }
-        /* Header end */
-        /********************************************/
-        /* raj main css (4sections)  */
-        
-        .laptop_section {
-            position: relative;
-            /* padding-inline: 20rem; */
-        }
-        /* section big_img */
-        
-        .laptop_section img {
-            width: 100%;
-            max-width: 1600px;
-        }
-        
-        .hp_laptop {
-            position: absolute;
-            top: 10%;
-            left: 8%;
-            /* transform: translateY(50%); */
-        }
-        
-        .hp_laptop h1 {
-            font-size: 34px;
-            line-height: 40px;
-            margin: -3px 0 0;
-            font-weight: 600;
-        }
-        /* 
-.btnshopnow :hover {
-    border-bottom: 2px solid #fff;
-} */
-        
-        .text {
-            font-family: Helvetica, sans-serif;
-            font-size: 15px;
-            line-height: 20px;
-            padding: 12px 0 0;
-            font-weight: 400;
-            max-height: 80px;
-        }
-        /* end of section_one */
-        /* btn css  */
-        
-        .btn_1 a {
-            text-decoration: none;
-            /* color: #0067b8; */
-        }
-        
-        .btn_1 {
-            font-size: 15px;
-            padding: 10px 20px 6px 22px;
-            border: 2px solid transparent;
-            outline: 1px solid transparent;
-            max-width: 100%;
-            color: #000;
-            font-weight: 600;
-            text-align: center;
-            text-decoration: none;
-            letter-spacing: 0;
-            transition: all 200ms ease-in-out;
-            background: #fff;
-        }
-        
-        .btn_1:hover a {
-            border-bottom: 2px solid #000;
-        }
-        
-        .btn_1 i {
-            color: #000;
-        }
-        
-        .butter .btn_2 {
-            font-size: 15px;
-            padding: 10px 20px 6px 22px;
-            border: 2px solid transparent;
-            outline: 1px solid transparent;
-            max-width: 100%;
-            font-weight: 600;
-            text-align: center;
-            text-decoration: none;
-            letter-spacing: 0;
-            transition: all 200ms ease-in-out;
-        }
-        /* BTN CSS  */
-        
-        .btn {
-            width: fit-content;
-            font-weight: 700;
-            font-size: 1rem;
-            padding: .6rem 1rem;
-            cursor: pointer;
-        }
-        
-        .btn_bg-white {
-            background-color: #fff;
-            color: #000;
-        }
-        
-        .btn_bg-black {
-            background-color: #000;
-            color: #fff;
-        }
-        
-        .btn:hover a {
-            border-bottom: 2px solid;
-        }
-        /* Accessories btn */
-        
-        .devtools .btn i {
-            color: #000;
-        }
-        /* For business btn */
-        
-        .business i {
-            color: #000;
-        }
-        /* css white btn */
-        
-        .fa-1x {
-            padding-left: .5rem;
-            color: #000;
-        }
-        
-        .text_clr-white {
-            color: #fff !important;
-        }
-        
-        .text_clr-black {
-            color: #000 !important;
-        }
-        
-        .fa-chevron-right {
-            padding-left: 0.5rem;
-            font-size: 13px !important;
-        }
-        /* Esea in out BTN */
-        
-        .fa-chevron-right {
-            cursor: pointer;
-            transition: all 0.2s;
-            background-color: none;
-        }
-        
-        .fa-chevron-right:hover {
-            transform: scale(1.3);
-        }
-        /* END OF BTN HERE*/
-        
-        .hp_laptop p {
-            margin-bottom: 2rem;
-        }
-        /* STARTING OF SECTION 2 */
-        
-        .services_section {
-            height: 25vh;
-            display: grid;
-            grid-template-columns: repeat(6, 1fr);
-            margin-inline: 15rem;
-        }
-        /* SELECTING THE SERVICE */
-        
-        .service {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        /* SELECTING ANCHOR TAG */
-        
-        .service a {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            color: #0067b8;
-            font-weight: 600;
-        }
-        /* ANCHOR TAG ON HOVER */
-        
-        .service a:hover {
-            text-decoration: underline;
-        }
-        /* TARGETTING THE IMAGE INSIDE THE ANCHOR TAG */
-        /* space between the image & the text */
-        
-        .service a img {
-            padding-bottom: 0.3rem;
-        }
-        /* END OF SECTION 2 */
-        /* Beginnin of section 3 */
-        
-        .devtools_list {
-            width: 100%;
-            max-width: 1600px;
-            margin-bottom: 2rem;
-        }
-        
-        .devtools_list {
-            display: flex;
-            justify-content: space-between;
-        }
-        
-        .devtools_list li,
-        .devtools_list li a img {
-            width: 100%;
-            max-width: 382px;
-            padding-top: 2rem;
-        }
-        
-        .devtools_list h3 {
-            font-size: 20px;
-            line-height: 24px;
-            font-weight: 600;
-            opacity: .95;
-            padding-top: 1px;
-            padding-bottom: 2px;
-            margin-top: 37px;
-        }
-        /* START SEC 4 */
-        
-        .business h2 {
-            font-size: 20px;
-            font-weight: 700;
-            padding-top: 3rem;
-            margin-bottom: -50px;
-        }
-        
-        .twins {
-            position: relative;
-            margin-bottom: 2rem;
-        }
-        
-        .butter {
-            position: absolute;
-            top: 35%;
-            left: 5%;
-        }
-        
-        .butterfly_text {
-            color: #fff;
-            max-width: 500px;
-            padding-bottom: 1rem;
-        }
-        /**start of section 6**/
-        
-        .images__text {
-            position: relative;
-        }
-        
-        .photos {
-            width: 1600px;
-        }
-        
-        .page {
-            position: absolute;
-            top: 4rem;
-            left: 1rem;
-            bottom: 6rem;
-            text-align: center;
-        }
-        
-        .section__btn {
-            padding: 0.75rem 2rem;
-            border: #000;
-            background-color: #000;
-            margin-top: 1rem;
-        }
-        
-        a,
-        .fa-chevron-right {
-            cursor: pointer;
-            transition: all .10s;
-            background-color: none;
-        }
-        
-        .fa-chevron-right:hover {
-            transform: scale(1.3);
-        }
-        
-        .fa-solid,
-        .link {
-            text-decoration: none;
-            color: #fff;
-        }
-        
-        .link:hover {
-            background-color: #4b4b4d;
-            text-decoration: underline;
-        }
-        
-        .inner__account__links {
-            font-size: 2.5rem;
-        }
-        /**end of section 6**/
-        /**start of section 7**/
-        
-        .account__links {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-        }
-        
-        .pargph {
-            color: #58585a;
-        }
-        
-        .fa-facebook-square {
-            color: #3b5998;
-        }
-        
-        .fa-twitter-square {
-            color: #00acee;
-        }
-        
-        .fa-linkedin {
-            color: #0077b5;
-        }
+    padding-left: 0.5rem;
+    color: #b1b2b2;
+    padding-top: 0.2rem;
+    cursor: pointer;
+}
+
+.fa-cart-shopping {
+    padding-left: 0.4rem;
+    padding-top: 0.2rem;
+}
+
+
+/* search icon or magnify */
+
+nav img {
+    padding-left: 0.5rem;
+    cursor: pointer;
+}
+
+.left_links,
+.right_links {
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: #ff1900; */
+}
+
+.left_links li,
+.right_links li {
+    display: flex;
+    padding-right: 15px;
+}
+
+.left_links a:hover,
+.right_links a:hover {
+    border-bottom: 2px solid #000;
+}
+
+.signin {
+    max-width: 160px;
+    line-height: 48px;
+    vertical-align: top;
+    font-family: "Segoe UI", "Segoe UI Web Regular", "Segoe UI Symbol", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
+    font-size: 13px;
+    padding-left: 12px;
+    padding-right: 4px;
+}
+
+.sign_plus {
+    height: 32px;
+    width: 32px;
+    margin: 8px;
+}
+
+
+/* Header end */
+
+
+/********************************************/
+
+
+/* raj main css (4sections)  */
+
+.hero_section {
+    position: relative;
+    /* padding-inline: 20rem; */
+}
+
+
+/* section big_img */
+
+.hero_section img {
+    width: 100%;
+    max-width: 1600px;
+}
+
+.butter {
+    position: absolute;
+}
+
+.text-position {
+    position: absolute;
+    top: 10%;
+    left: 8%;
+}
+
+.bottom-position {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+
+.butter p {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.butter h2 {
+    font-size: 24px;
+    margin: -3px 0 0;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 36px 0 4px;
+    max-height: 56px;
+}
+
+.butter a {
+    font-size: 15px;
+    font-weight: 600px;
+    text-align: center;
+    letter-spacing: 0;
+}
+
+
+/* end of section_one */
+
+
+/* btn css  */
+
+.btn_1 a {
+    text-decoration: none;
+    /* color: #0067b8; */
+}
+
+.btn_1 {
+    font-size: 15px;
+    padding: 10px 20px 6px 22px;
+    border: 2px solid transparent;
+    outline: 1px solid transparent;
+    max-width: 100%;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0;
+    transition: all 200ms ease-in-out;
+    background: #fff;
+}
+
+.btn_1:hover a {
+    border-bottom: 2px solid #000;
+}
+
+.btn_1 i {
+    color: #000;
+}
+
+.butter .btn_2 {
+    font-size: 15px;
+    padding: 10px 20px 6px 22px;
+    border: 2px solid transparent;
+    outline: 1px solid transparent;
+    max-width: 100%;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 0;
+    transition: all 200ms ease-in-out;
+}
+
+
+/* BTN CSS  */
+
+.btn {
+    width: fit-content;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: .6rem 1rem;
+    cursor: pointer;
+}
+
+.btn_bg-white {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn_bg-black {
+    background-color: #000;
+    color: #fff;
+}
+
+.btn:hover a {
+    border-bottom: 2px solid;
+}
+
+
+/* Accessories btn */
+
+.devtools .btn i {
+    color: #000;
+}
+
+
+/* For business btn */
+
+.business i {
+    color: #000;
+}
+
+
+/* css white btn */
+
+.fa-1x {
+    padding-left: .5rem;
+    color: #000;
+}
+
+.text_clr-white {
+    color: #fff !important;
+}
+
+.text_clr-black {
+    color: #000 !important;
+}
+
+.fa-chevron-right {
+    padding-left: 0.5rem;
+    font-size: 13px !important;
+}
+
+
+/* Ease-in-out BTN */
+
+.fa-chevron-right {
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+    background-color: none;
+}
+
+.fa-chevron-right:hover {
+    transform: scale(1.3);
+}
+
+
+/* END OF BTN HERE*/
+
+.right_links .fa-chevron-down {
+    color: #58585a;
+}
+
+
+/* STARTING OF SECTION 2 */
+
+.services_section {
+    height: 25vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-inline: 15rem;
+}
+
+
+/* SELECTING THE SERVICE */
+
+.service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* SELECTING ANCHOR TAG */
+
+.service a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #0067b8;
+    font-weight: 600;
+}
+
+
+/* ANCHOR TAG ON HOVER */
+
+.service a:hover {
+    text-decoration: underline;
+}
+
+
+/* TARGETTING THE IMAGE INSIDE THE ANCHOR TAG */
+
+
+/* space between the image & the text */
+
+.service a img {
+    padding-bottom: 0.3rem;
+}
+
+
+/* END OF SECTION 2 */
+
+
+/* Beginnin of section 3 */
+
+.devtools_list {
+    width: 100%;
+    max-width: 1600px;
+    margin-bottom: 2rem;
+}
+
+.devtools_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.devtools_list li,
+.devtools_list li a img {
+    width: 100%;
+    max-width: 382px;
+    padding-top: 2rem;
+}
+
+.devtools_list h3 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    opacity: .95;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    margin-top: 37px;
+}
+
+
+/* START SEC 4 */
+
+.business h2 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 3rem;
+    margin-bottom: -50px;
+}
+
+.twins {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+
+/**start of section 6**/
+
+.images__text {
+    position: relative;
+}
+
+.photos {
+    width: 1600px;
+}
+
+.page {
+    position: absolute;
+    top: 4rem;
+    left: 1rem;
+    bottom: 6rem;
+    text-align: center;
+}
+
+.section__btn {
+    padding: 0.75rem 2rem;
+    border: #000;
+    background-color: #000;
+    margin-top: 1rem;
+}
+
+a,
+.fa-chevron-right {
+    cursor: pointer;
+    transition: all .10s;
+    background-color: none;
+}
+
+.fa-chevron-right:hover {
+    transform: scale(1.3);
+}
+
+.fa-solid,
+.link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link:hover {
+    background-color: #4b4b4d;
+    text-decoration: underline;
+}
+
+.inner__account__links {
+    font-size: 2.5rem;
+}
+
+
+/**end of section 6**/
+
+
+/* GEGINNING OF CSS FOOTER */
+
+
+/*footer start here */
+
+footer {
+    background-color: #f2f2f2;
+    margin-top: 3rem;
+    font-size: 11px !important;
+}
+
+.footer__items {
+    display: grid;
+}
+
+.footer__items a {
+    text-decoration: none;
+    color: #616161;
+}
+
+.footer__items a:hover {
+    text-decoration: underline;
+}
+
+.upper__footer_section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.leftside__column,
+.rightside__column {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 9rem;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    color: #616161;
+}
+
+.top__column {
+    padding: 36px 0 4px;
+    font-weight: 600;
+    font-size: 15px !important;
+    line-height: 20px;
+}
+
+.footer_links_heading {
+    line-height: 1rem;
+}
+
+.footer_links_heading li {
+    padding: 8px 0;
+}
+
+.footer__bottom_list,
+.footer__top_link:hover {
+    text-decoration: underline;
+    line-height: 16px;
+}
+
+.bottom_lists {
+    font-size: 11px;
+}
+
+.bottom__footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 72px;
+}
+
+.footer__bottom_list {
+    display: flex;
+    gap: 1rem;
+}
+
+.earth {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+
+.fa-earth-americas {
+    font-size: 20px;
+    display: block;
+    color: #616161;
+}
