@@ -133,7 +133,7 @@ nav img {
 
 /* raj main css (4sections)  */
 
-.laptop_section {
+.hero_section {
     position: relative;
     /* padding-inline: 20rem; */
 }
@@ -141,38 +141,48 @@ nav img {
 
 /* section big_img */
 
-.laptop_section img {
+.hero_section img {
     width: 100%;
     max-width: 1600px;
 }
 
-.hp_laptop {
+.butter {
+    position: absolute;
+}
+
+.text-position {
     position: absolute;
     top: 10%;
     left: 8%;
-    /* transform: translateY(50%); */
 }
 
-.hp_laptop h1 {
-    font-size: 34px;
-    line-height: 40px;
-    margin: -3px 0 0;
-    font-weight: 600;
+.bottom-position {
+    position: absolute;
+    top: 35%;
+    left: 5%;
 }
 
-
-/* 
-.btnshopnow :hover {
-    border-bottom: 2px solid #fff;
-} */
-
-.text {
-    font-family: Helvetica, sans-serif;
+.butter p {
     font-size: 15px;
     line-height: 20px;
-    padding: 12px 0 0;
     font-weight: 400;
-    max-height: 80px;
+    margin-bottom: 2rem;
+}
+
+.butter h2 {
+    font-size: 24px;
+    margin: -3px 0 0;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 36px 0 4px;
+    max-height: 56px;
+}
+
+.butter a {
+    font-size: 15px;
+    font-weight: 600px;
+    text-align: center;
+    letter-spacing: 0;
 }
 
 
@@ -283,7 +293,7 @@ nav img {
 }
 
 
-/* Esea in out BTN */
+/* Ease-in-out BTN */
 
 .fa-chevron-right {
     cursor: pointer;
@@ -297,10 +307,6 @@ nav img {
 
 
 /* END OF BTN HERE*/
-
-.hp_laptop p {
-    margin-bottom: 2rem;
-}
 
 .right_links .fa-chevron-down {
     color: #58585a;
@@ -403,18 +409,6 @@ nav img {
     margin-bottom: 2rem;
 }
 
-.butter {
-    position: absolute;
-    top: 35%;
-    left: 5%;
-}
-
-.butterfly_text {
-    color: #fff;
-    max-width: 500px;
-    padding-bottom: 1rem;
-}
-
 
 /**start of section 6**/
 
@@ -482,9 +476,8 @@ footer {
     font-size: 11px !important;
 }
 
-.footer__container {
-    flex-wrap: wrap;
-    justify-content: center;
+.footer__items {
+    display: grid;
 }
 
 .footer__items a {
@@ -502,13 +495,14 @@ footer {
     margin-bottom: 2rem;
 }
 
-.rightside__list,
-.first__footer_list {
+.leftside__column,
+.rightside__column {
     width: 100%;
-    max-width: 50rem;
+    max-width: 800px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
-    gap: 8rem;
+    gap: 9rem;
 }
 
 .footer__list {
