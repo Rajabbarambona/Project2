@@ -207,8 +207,19 @@ nav img {
 
 /* Accessories btn */
 
+
+/* coloring& moving in &out  */
+
 .devtools .btn i {
     color: #000;
+    transition: transform 200ms ease ease-in-out;
+}
+
+
+/* moving the chevron right */
+
+.btn:hover i {
+    transform: translateX(40%);
 }
 
 
@@ -235,13 +246,15 @@ nav img {
 }
 
 .fa-chevron-right {
-    padding-left: 0.5rem;
+    /* padding-left: 0.5rem; */
     font-size: 13px !important;
 }
 
 
 /* Ease-in-out BTN */
 
+
+/* 
 .fa-chevron-right {
     cursor: pointer;
     transition: all 200ms ease-in-out;
@@ -250,6 +263,10 @@ nav img {
 
 .fa-chevron-right:hover {
     transform: scale(1.3);
+} */
+
+.fa-chevron-right a:hover i {
+    margin-left: 10px;
 }
 
 
@@ -385,13 +402,14 @@ nav img {
 a,
 .fa-chevron-right {
     cursor: pointer;
-    transition: all .10s;
+    /* transition: all .10s; */
     background-color: none;
 }
 
-.fa-chevron-right:hover {
+
+/* .fa-chevron-right:hover {
     transform: scale(1.3);
-}
+} */
 
 .fa-solid,
 .link {
